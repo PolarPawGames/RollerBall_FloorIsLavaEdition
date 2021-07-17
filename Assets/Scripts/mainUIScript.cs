@@ -47,10 +47,7 @@ public class mainUIScript : MonoBehaviour
 
    public void fillVariables()
         {
-        MainManager.Instance.highscorePlayerName = "Dummy";
-        MainManager.Instance.highscorePlayerTime = 1000;
-        MainManager.Instance.saveGame ();
-        updateMenu ();
+        Application.Quit ();
       
         }
     }
